@@ -131,7 +131,13 @@ class TicTacToeUI:
     def run(self):
         self.root.mainloop()
 
+            
+def play_game():
+    game = TicTacToe()
+    ui = TicTacToeUI(game)
+    ui.run()
 
+play_game()
 
 
 # Create the main window
